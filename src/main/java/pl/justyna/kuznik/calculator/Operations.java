@@ -4,5 +4,6 @@ public enum Operations {
     PLUS,
     MINUS,
     MULTIPLY,
-    DIVIDE
+    DIVIDE,
+    ABS
 }

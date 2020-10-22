@@ -80,6 +80,11 @@ public class Controller {
         BigDecimal output = calculatorOperations(a,b);
         screenInput.setText(String.valueOf(output));
     }
+    @FXML
+    public void handlerAbsPressed(ActionEvent event){
+        operation = ABS;
+        getFirstNumberAndClear();
+    }
 
     private BigDecimal calculatorOperations(BigDecimal a, BigDecimal b) {
         switch (operation){
@@ -91,6 +96,8 @@ public class Controller {
                 return a.multiply(b);
             case DIVIDE:
                 return a.divide(b, MathContext.DECIMAL128);
+            case ABS:
+                return a.abs(MathContext.DECIMAL128);
         }
         throw new IllegalStateException("Unsupported operation"
                 + operation);
