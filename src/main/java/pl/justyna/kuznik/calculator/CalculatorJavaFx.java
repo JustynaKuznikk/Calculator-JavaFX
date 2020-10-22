@@ -1,3 +1,5 @@
+package pl.justyna.kuznik.calculator;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -10,7 +12,7 @@ public class CalculatorJavaFx extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root=FXMLLoader.load(
                 getClass()
-                .getResource("/wpisac")
+                .getResource("/calculator.fxml")
         );
         primaryStage.setTitle("Calculator");
         Scene scene = new Scene(root,primaryStage.getWidth(),

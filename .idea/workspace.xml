@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72c4b827-1bb4-48ca-be72-5293f5219ad7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/calculator.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/justyna/kuznik/calculator/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/calculator.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorJavaFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorJavaFx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorJavaFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/justyna/kuznik/calculator/CalculatorJavaFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/justyna/kuznik/calculator/Operations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,17 +35,39 @@
     </option>
   </component>
   <component name="ProjectId" id="1jEmBjaArv9zuk6yMzynJS8vzo1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Justyna\Repozytorium\Calculator\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CalculatorJavaFx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.justyna.kuznik.calculator.CalculatorJavaFx" />
+      <module name="Calculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalculatorJavaFx" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +82,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="234" y="0" key="#Project_Structure" timestamp="1603377606606">
       <screen x="0" y="0" width="1280" height="680" />
@@ -65,6 +94,42 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="124" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603378238342" />
+    <state x="134" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603384087460">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="134" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1603384087460" />
+    <state width="768" height="163" key="GridCell.Tab.0.bottom" timestamp="1603385159547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="768" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603385159547" />
+    <state width="768" height="163" key="GridCell.Tab.0.center" timestamp="1603385159547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="768" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603385159547" />
+    <state width="768" height="163" key="GridCell.Tab.0.left" timestamp="1603385159546">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="768" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603385159546" />
+    <state width="768" height="163" key="GridCell.Tab.0.right" timestamp="1603385159547">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="768" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603385159547" />
+    <state width="579" height="201" key="GridCell.Tab.1.bottom" timestamp="1603380984623">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="579" height="201" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603380984623" />
+    <state width="579" height="201" key="GridCell.Tab.1.center" timestamp="1603380984623">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="579" height="201" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1603380984623" />
+    <state width="579" height="201" key="GridCell.Tab.1.left" timestamp="1603380984623">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="579" height="201" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1603380984623" />
+    <state width="579" height="201" key="GridCell.Tab.1.right" timestamp="1603380984623">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="579" height="201" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1603380984623" />
     <state x="0" y="0" key="Maven.ArtifactSearchDialog" timestamp="1603378208233">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
