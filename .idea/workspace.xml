@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72c4b827-1bb4-48ca-be72-5293f5219ad7" name="Default Changelist" comment="" />
+    <list default="true" id="72c4b827-1bb4-48ca-be72-5293f5219ad7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorJavaFx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorJavaFx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Operations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Operations.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,12 +31,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1jEmBjaArv9zuk6yMzynJS8vzo1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -51,5 +61,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="234" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1603377606606" />
+    <state x="124" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1603378238342">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="124" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1603378238342" />
+    <state x="0" y="0" key="Maven.ArtifactSearchDialog" timestamp="1603378208233">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1603378208233" />
   </component>
 </project>
